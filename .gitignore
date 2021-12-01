@@ -1,6 +1,6 @@
 .\#*
 \#*
-.rebar3
+.epm
 _*
 .eunit
 *.o
@@ -16,7 +16,7 @@ erl_crash.dump
 logs
 _build
 .idea
-rebar3.crashdump
+epm.crashdump
 doc/*.html
 doc/edoc-info
 doc/erlang.png

@@ -163,20 +163,20 @@ Meck uses [Rebar 3][rebar_3]. To build Meck go to the Meck directory
 and simply type:
 
 ```sh
-rebar3 compile
+epm compile
 ```
 
 In order to run all tests for Meck type the following command from the same
 directory:
 
 ```sh
-rebar3 eunit
+epm eunit
 ```
 
 Documentation can be generated through the use of the following command:
 
 ```sh
-rebar3 edoc
+epm edoc
 ```
 
 ### Test Output
@@ -308,7 +308,7 @@ If you or your company use Meck and find it useful, a [sponsorship][sponsors] or
 <!-- Links -->
 [release_notes_0.8]: https://github.com/eproxus/meck/wiki/0.8-Release-Notes
 [hamcrest]: https://github.com/hyperthunk/hamcrest-erlang
-[rebar_3]: https://github.com/erlang/rebar3
+[epm]: https://github.com/erlpm/epm
 [issues]: http://github.com/eproxus/meck/issues
 [commit_messages]: http://chris.beams.io/posts/git-commit/
 [sponsors]: https://github.com/sponsors/eproxus

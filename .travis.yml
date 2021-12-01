@@ -11,15 +11,15 @@ otp_release:
   - 18.3
   - 17.5
 
-script: rebar3 eunit
+script: epm eunit
 install:
-  - wget https://s3.amazonaws.com/rebar3/rebar3 && chmod +x rebar3
+  - wget https://erl.pm/dl/epm && chmod +x epm
 script:
-  - ./rebar3 as prod compile
-  - ./rebar3 xref
-  - ./rebar3 dialyzer
-  - ./rebar3 eunit
-  - ./rebar3 edoc
+  - ./epm as prod compile
+  - ./epm xref
+  - ./epm dialyzer
+  - ./epm eunit
+  - ./epm edoc
 
 notifications:
   recipients:

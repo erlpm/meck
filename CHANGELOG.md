@@ -88,7 +88,7 @@ The format is based on [Keep a Changelog], and this project adheres to
 
 ### Changed
 
-- Migrate to Rebar 3 and rebar3\_hex [\#155](https://github.com/eproxus/meck/issues/155)
+- Migrate to Rebar 3 and epm\_hex [\#155](https://github.com/eproxus/meck/issues/155)
 
 ### Fixed
 
